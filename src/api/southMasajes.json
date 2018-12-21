@@ -1,0 +1,662 @@
+[
+    {
+        "id": "1oqb66ebhbp0qjfoc6jud97s5r_20181221T163000Z",
+        "title": "Occupied",
+        "start": "2018-12-21T13:30:00.394-03:00",
+        "end": "2018-12-21T13:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=1oqb66ebhbp0qjfoc6jud97s5r_20181221T163000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545409800394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545410700394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "43g95qoa0674fshctmbklpridp_20181221T164500Z",
+        "title": "Occupied",
+        "start": "2018-12-21T13:45:00.394-03:00",
+        "end": "2018-12-21T14:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=43g95qoa0674fshctmbklpridp_20181221T164500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545410700394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545411600394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "c929s4t2kkaf7rk7b02n4o6j0c_20181221T171500Z",
+        "title": "Occupied",
+        "start": "2018-12-21T14:15:00.394-03:00",
+        "end": "2018-12-21T14:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=c929s4t2kkaf7rk7b02n4o6j0c_20181221T171500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545412500394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545413400394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "a3s0ekaqluvep8tqjl1i22ek1g_20181221T173000Z",
+        "title": "Occupied",
+        "start": "2018-12-21T14:30:00.394-03:00",
+        "end": "2018-12-21T14:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=a3s0ekaqluvep8tqjl1i22ek1g_20181221T173000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545413400394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545414300394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "o5tdj622r3891k2tb2immue5h4_20181221T174500Z",
+        "title": "Available",
+        "start": "2018-12-21T14:45:00.394-03:00",
+        "end": "2018-12-21T15:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=o5tdj622r3891k2tb2immue5h4_20181221T174500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545414300394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545415200394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "rtoqtj4jd62564j2bkn4mff8a0_20181221T180000Z",
+        "title": "Occupied",
+        "start": "2018-12-21T15:00:00.394-03:00",
+        "end": "2018-12-21T15:15:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=rtoqtj4jd62564j2bkn4mff8a0_20181221T180000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545415200394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545416100394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "1d024uhr53fj72delimjnihhfg_20181221T181500Z",
+        "title": "Occupied",
+        "start": "2018-12-21T15:15:00.394-03:00",
+        "end": "2018-12-21T15:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=1d024uhr53fj72delimjnihhfg_20181221T181500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545416100394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545417000394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "qdabm1g5r9j6gbffmda6j0n7ac_20181221T183000Z",
+        "title": "Occupied",
+        "start": "2018-12-21T15:30:00.394-03:00",
+        "end": "2018-12-21T15:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=qdabm1g5r9j6gbffmda6j0n7ac_20181221T183000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545417000394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545417900394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "lipena539bqajv184cue2f6sig_20181221T184500Z",
+        "title": "Available",
+        "start": "2018-12-21T15:45:00.394-03:00",
+        "end": "2018-12-21T16:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=lipena539bqajv184cue2f6sig_20181221T184500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545417900394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545418800394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "3rsmo6be981nuqphtaqju6ehvc_20181221T191500Z",
+        "title": "Occupied",
+        "start": "2018-12-21T16:15:00.394-03:00",
+        "end": "2018-12-21T16:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=3rsmo6be981nuqphtaqju6ehvc_20181221T191500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545419700394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545420600394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "npau1va6oqbptfbmlmgp6hpfsk_20181221T193000Z",
+        "title": "Occupied",
+        "start": "2018-12-21T16:30:00.394-03:00",
+        "end": "2018-12-21T16:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=npau1va6oqbptfbmlmgp6hpfsk_20181221T193000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545420600394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545421500394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "sstb25gpfhd0c653subefica30_20181221T194500Z",
+        "title": "Available",
+        "start": "2018-12-21T16:45:00.394-03:00",
+        "end": "2018-12-21T17:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=sstb25gpfhd0c653subefica30_20181221T194500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545421500394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545422400394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "5qb91hl39ighedfnkkr5a61ibh_20181225T170000Z",
+        "title": "Available",
+        "start": "2018-12-25T14:00:00.394-03:00",
+        "end": "2018-12-25T14:15:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=5qb91hl39ighedfnkkr5a61ibh_20181225T170000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545757200394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545758100394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "c929s4t2kkaf7rk7b02n4o6j0c_20181225T171500Z",
+        "title": "Available",
+        "start": "2018-12-25T14:15:00.394-03:00",
+        "end": "2018-12-25T14:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=c929s4t2kkaf7rk7b02n4o6j0c_20181225T171500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545758100394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545759000394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "a3s0ekaqluvep8tqjl1i22ek1g_20181225T173000Z",
+        "title": "Available",
+        "start": "2018-12-25T14:30:00.394-03:00",
+        "end": "2018-12-25T14:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=a3s0ekaqluvep8tqjl1i22ek1g_20181225T173000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545759000394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545759900394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "o5tdj622r3891k2tb2immue5h4_20181225T174500Z",
+        "title": "Available",
+        "start": "2018-12-25T14:45:00.394-03:00",
+        "end": "2018-12-25T15:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=o5tdj622r3891k2tb2immue5h4_20181225T174500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545759900394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545760800394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "rtoqtj4jd62564j2bkn4mff8a0_20181225T180000Z",
+        "title": "Available",
+        "start": "2018-12-25T15:00:00.394-03:00",
+        "end": "2018-12-25T15:15:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=rtoqtj4jd62564j2bkn4mff8a0_20181225T180000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545760800394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545761700394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "1d024uhr53fj72delimjnihhfg_20181225T181500Z",
+        "title": "Available",
+        "start": "2018-12-25T15:15:00.394-03:00",
+        "end": "2018-12-25T15:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=1d024uhr53fj72delimjnihhfg_20181225T181500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545761700394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545762600394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "qdabm1g5r9j6gbffmda6j0n7ac_20181225T183000Z",
+        "title": "Occupied",
+        "start": "2018-12-25T15:30:00.394-03:00",
+        "end": "2018-12-25T15:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=qdabm1g5r9j6gbffmda6j0n7ac_20181225T183000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545762600394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545763500394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "lipena539bqajv184cue2f6sig_20181225T184500Z",
+        "title": "Occupied",
+        "start": "2018-12-25T15:45:00.394-03:00",
+        "end": "2018-12-25T16:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=lipena539bqajv184cue2f6sig_20181225T184500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545763500394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545764400394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "3rsmo6be981nuqphtaqju6ehvc_20181225T191500Z",
+        "title": "Occupied",
+        "start": "2018-12-25T16:15:00.394-03:00",
+        "end": "2018-12-25T16:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=3rsmo6be981nuqphtaqju6ehvc_20181225T191500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#7D7D7D",
+        "className": "nocursor",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545765300394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545766200394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": false,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "npau1va6oqbptfbmlmgp6hpfsk_20181225T193000Z",
+        "title": "Available",
+        "start": "2018-12-25T16:30:00.394-03:00",
+        "end": "2018-12-25T16:45:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=npau1va6oqbptfbmlmgp6hpfsk_20181225T193000Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545766200394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545767100394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "sstb25gpfhd0c653subefica30_20181225T194500Z",
+        "title": "Available",
+        "start": "2018-12-25T16:45:00.394-03:00",
+        "end": "2018-12-25T17:00:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=sstb25gpfhd0c653subefica30_20181225T194500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545767100394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545768000394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    },
+    {
+        "id": "03rc60p490o6jj39otqj7vv9ul_20181225T201500Z",
+        "title": "Available",
+        "start": "2018-12-25T17:15:00.394-03:00",
+        "end": "2018-12-25T17:30:00.394-03:00",
+        "url": "displayEvent.do?calid=globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com&eventid=03rc60p490o6jj39otqj7vv9ul_20181225T201500Z&start=2018-12-21T0:0:00.0-0300&end=2018-12-28T0:0:00.0-0300",
+        "color": "#3079ED",
+        "allDay": false,
+        "calendarID": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+        "startDateTime": {
+            "value": 1545768900394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "endDateTime": {
+            "value": 1545769800394,
+            "dateOnly": false,
+            "tzShift": -180
+        },
+        "inThePast": false,
+        "free": true,
+        "mine": false,
+        "notYetAvailable": false,
+        "bookeable": true,
+        "modifiable": true,
+        "reserved": false
+    }
+]

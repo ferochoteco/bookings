@@ -1,0 +1,9 @@
+export const LOGIN_BEGIN = 'LOGIN_BEGIN'; 
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'; 
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+
+export const sitesActions = {
+    FETCH_BEGIN: 'FETCH_SITES_BEGIN',
+    FETCH_SUCCESS: 'FETCH_SITES_SUCCESS',
+    FETCH_FAILURE: 'FETCH_SITES_FAILURE'
+}

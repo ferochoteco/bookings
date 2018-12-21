@@ -1,0 +1,438 @@
+[
+    {
+        "id": 1,
+        "name": "South Park",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_ll6vbcdubd30r2sv7mr01m6j9o@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_vr0ojspijq4707i4k0mgjsohcc@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_vtcotf8cakpfftrddtb3c50a9c@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober",
+                "calendarId": "globant.com_ie8jfevfo9th91dtekct9kuj4g@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "ManiPedi",
+                "calendarId": "globant.com_mmruvrdj2k6ml2k9umdjlkk2ms@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Laminar",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_2ldrf564cc7iul2o7nfjv98728@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_u71qo3krrc3bfg82kd8d9pju4s@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_la5if5b5kuqutc8iangqsahujs@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober",
+                "calendarId": "globant.com_ij9trjp94v84jnb07lpdtf5efc@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "YOGA ",
+                "calendarId": "globant.com_rc6p7sqarrcvskfja7iogui2r8@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Reiki",
+                "calendarId": "globant.com_23u6fs11tp8nmv45mrrc27gfg0@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "ManiPedi",
+                "calendarId": "globant.com_qtcoekss3es4bdp5bri7aj3ikc@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Meditacion",
+                "calendarId": "globant.com_uanpso4ti5df6luj36ajnu2q6c@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "North Park",
+        "benefits": [
+            {
+                "name": "Masajes ",
+                "calendarId": "globant.com_t165qlsu6k0hccqgt9b9fpfr44@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_b73vikqdbiojv5o1fnp2d1k9ao@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_je7f950phf82edb77g43k1mb0s@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober",
+                "calendarId": "globant.com_5180s64q4tcmg6edblicjv0k0o@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Yoga",
+                "calendarId": "globant.com_c6tkj8k3cem11dhm8cq4c2bm8g@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Reiki",
+                "calendarId": "globant.com_5tfeq906t3n6uuhp5bcm002b08@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "ManiPedi",
+                "calendarId": "globant.com_6hd4et2s8u2lk2hut1db10oheo@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Meditacion",
+                "calendarId": "globant.com_2g4l5a9j0gc7so1jnaj1d2a6us@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "La Plata",
+        "benefits": [
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_s4ia77qrkenfprsa6masu9thj0@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_9pv6rg3732uqhvvtnmchq74p5g@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_gv0i6ap7mmoivdidfut0s8q3ag@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Sao Paulo",
+        "benefits": [
+            {
+                "name": "Massagem",
+                "calendarId": "globant.com_p5lm5i60n9djq505ektkn95sv8@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Cordoba - Canada",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_u5ql6i8fh3i4pj96m3g98h3dfc@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_penj7tan2f9rkpbos505kqdfjc@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_kt25t06po14nrj73ir2f1mof3g@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Cordoba - Capitalinas",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_jv1e56ogg9ijomti5qamvq66bk@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_3unf4d8p89tsrbuegk49mio2hg@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_feokuvcvtfehalral75f3pn5i0@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober y barbero",
+                "calendarId": "globant.com_f2km07d1mvtuhohcccl56athk4@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Rosario - Nordlink",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_4r6ok9pb6sf1cpcif12s1do4ns@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_ht6bnfvc1uirq157i6ih635o5c@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Rosario - Museion",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_01r9jip89sctnv09ltuphikrng@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_q7u4cvh6reurebne9fcmp0r2s0@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Tucuman",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_udnbli9te36lvh19ranq1lbfcs@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Medico",
+                "calendarId": "globant.com_u6h5k0k9rlmbjsqgp4e05v564g@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Yoga",
+                "calendarId": "globant.com_mn13upb9k11tkjkdcjkb0jn8q4@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Bahia Blanca",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_6pumibbvrl60cb8ttdiq8oc084@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_3ntria6rdurnjmjn06cefkhqa4@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Resistencia",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_kcund5hvesvriegp43c0bjcgts@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober",
+                "calendarId": "globant.com_aun10tjqnhv6nljcvhl7eofhrg@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Tandil",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_gclbtdpajf9f4n3ss4hoh5ha74@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_lc1s5clf2eble26eeige1g9vms@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober Barber",
+                "calendarId": "globant.com_vhcgp9di4aojl0eebi86skahq4@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober Pedi",
+                "calendarId": "globant.com_cfpqr1ace2eldkjfcptoj2k3mk@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Manicuria ",
+                "calendarId": "globant.com_k5f48rbvfkpiddqv5p89gd9s7g@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Montevideo",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_ug6cklqo0vbg04lketks9einm0@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober-ManiPedi",
+                "calendarId": "globant.com_8k2ekat8t05nqugem2i6ig3u0k@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Mar del Plata",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_qh8pr8380lttbssc600c4or2eo@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Stretching",
+                "calendarId": "globant.com_fgvbj9gf3dh099ohrd9hqonvss@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_23u979ht0n3pk621t2bk27j1a0@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Mexico",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_otdngi69qorhlj7e1nvjkaa54g@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Estilista",
+                "calendarId": "globant.com_a1590b0qca4v15aspdge0af9n0@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Peru",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_0qn5ip2q8lqrokjaqh2in8gfog@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Nutricionista",
+                "calendarId": "globant.com_ebee6td2veaqf532d0ja1at62g@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Mendoza",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_lsg86usskn9gkbqgpisjphv18s@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Chile",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_63n8rrnubg0jk035f2uvc4ufdc@group.calendar.google.com",
+                "logic": ""
+            },
+            {
+                "name": "Peluglober",
+                "calendarId": "globant.com_7i4p4hmcrchus309uoeqmmbh1g@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Bogota - 97",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_n9gaqfcmmg5hu7bruqpisnti9k@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Bogota - Salitre",
+        "benefits": [
+            {
+                "name": "Masajes",
+                "calendarId": "globant.com_dc64oaenkv9opmu2ga1j9jghg0@group.calendar.google.com",
+                "logic": ""
+            }
+        ]
+    }
+]
