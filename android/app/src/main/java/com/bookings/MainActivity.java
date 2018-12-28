@@ -1,4 +1,4 @@
-package com.bookings;
+package com.bookingsApp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

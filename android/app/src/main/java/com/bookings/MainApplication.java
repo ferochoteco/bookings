@@ -1,4 +1,4 @@
-package com.bookings;
+package com.bookingsApp;
 
 import android.app.Application;
 

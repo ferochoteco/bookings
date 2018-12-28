@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, TextInput, StatusBar, Text } from 'react-native';
+import { View, StyleSheet, TextInput, StatusBar, Text, Button } from 'react-native';
 // import TextBtn from '../components/common/TextBtn';
 import Loading from '../components/common/Loading';
+import { GoogleSignin, GoogleSigninButton, statusCodes } from 'react-native-google-signin';
 import { colors } from '../components/_base.js';
 
 // Redux
@@ -13,25 +14,52 @@ class LoginForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            email: '',
-            password: ''
+            userInfo: '',
+            isSigninInProgress: false
         }
-        this.loginUser = this.loginUser.bind(this);
-        this.signUpUser = this.signUpUser.bind(this);
+        this.signIn = this.signIn.bind(this);
+        this.signOut = this.signOut.bind(this);
     }
 
-    loginUser() {
-        const nav = this.props.navigation;
-        this.props.dispatchLogin(this.state.email, this.state.password, 'Home', nav);
+    componentDidMount() {
+        GoogleSignin.configure();
     }
 
-    signUpUser() {
-        if (this.state.password.length < 6) {
-            alert("Please enter at least 6 characters");
-            return;
+    signIn = async () => {
+        this.setState({
+            isSigninInProgress: true
+        });
+        try {
+            await GoogleSignin.hasPlayServices();
+            const userInfo = await GoogleSignin.signIn();
+            this.setState({ userInfo, isSigninInProgress: false });
+            console.log(this.state.userInfo.user.id);
+        } catch (error) {
+            if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+                // user cancelled the login flow
+                console.log(error);
+            } else if (error.code === statusCodes.IN_PROGRESS) {
+                // operation (f.e. sign in) is in progress already
+                console.log(error);
+            } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+                // play services not available or outdated
+                console.log(error);
+            } else {
+                // some other error happened
+                console.log(error.code);
+            }
         }
-        this.props.dispatchSignUp(this.state.email, this.state.password);
-    }
+    };
+
+    signOut = async () => {
+        try {
+            await GoogleSignin.revokeAccess();
+            await GoogleSignin.signOut();
+            this.setState({ userInfo: null }); // Remember to remove the user from your app's state as well
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     render() {
         const { loading, error } = this.props;
@@ -42,37 +70,19 @@ class LoginForm extends Component {
                         <StatusBar 
                             barStyle="light-content"
                             />
-                        <TextInput 
-                            autoCapitalize="none"
-                            autoCorrect={false}
-                            keyboardType="email-address"
-                            placeholder="Email"
-                            placeholderTextColor="rgba(255,255,255,0.7)"
-                            onChangeText={(email) => this.setState({email})}
-                            onSubmitEditing={() => this.passwordInput.focus()}
-                            style={styles.input}
-                            />
-                        <TextInput 
-                            onChangeText={(password) => this.setState({password})}
-                            placeholder="Password"
-                            placeholderTextColor="rgba(255,255,255,0.7)"
-                            secureTextEntry
-                            style={styles.input}
-                            ref={(input) => this.passwordInput = input}
+                        <GoogleSigninButton
+                            style={{ width: 48, height: 48 }}
+                            size={GoogleSigninButton.Size.Icon}
+                            color={GoogleSigninButton.Color.Dark}
+                            onPress={this.signIn}
+                            disabled={this.state.isSigninInProgress} />
+                        <Button
+                            onPress={this.signOut}
+                            title="Sign Out"
+                            color="green"
+                            accessibilityLabel="Learn more about this purple button"
                             />
                         { error && <Text style={styles.errorText}>{ error.message }</Text>}
-                        {/* <TextBtn 
-                            bkgColor={colors.loginBkgBtn}
-                            color={colors.loginBtn}
-                            onPress={this.loginUser}
-                            text='LOGIN'
-                            />
-                        <TextBtn 
-                            bkgColor={colors.signUpBkgBtn}
-                            color={colors.signUpBtn}
-                            onPress={this.signUpUser}
-                            text='SIGN UP'
-                            /> */}
                     </View>
                 } 
             </View>

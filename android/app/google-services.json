@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "974708083906",
+    "firebase_url": "https://bookings-b6604.firebaseio.com",
+    "project_id": "bookings-b6604",
+    "storage_bucket": "bookings-b6604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974708083906:android:aca2b6113b027343",
+        "android_client_info": {
+          "package_name": "com.bookingsApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974708083906-8okvm7o856ro662anttp6doq7eu9s8bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc9FGD42LHa1JicZ-dZHtXjZTWckVeor8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974708083906:android:08799cbbad202942",
+        "android_client_info": {
+          "package_name": "com.bookingsApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974708083906-2hhl7sergjlvd4tsglsj1j45pgj6c030.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookingsApp",
+            "certificate_hash": "2a95a014e7aef8adb93fa70f67a0f646f9a700c7"
+          }
+        },
+        {
+          "client_id": "974708083906-8okvm7o856ro662anttp6doq7eu9s8bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc9FGD42LHa1JicZ-dZHtXjZTWckVeor8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974708083906-8okvm7o856ro662anttp6doq7eu9s8bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
