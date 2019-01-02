@@ -1,6 +1,6 @@
 //Import the sample data
-import sitesData from '../api/sites.json';
 import { sitesActions } from '../utils/constants';
+import { getLocations } from '../api/api';
 
 export function getSitesData() {
     return {
@@ -25,8 +25,12 @@ export function getSitesFailure(error) {
 export function getSitesAction(){
     return (dispatch) => {
         dispatch(getSitesData());
-        setTimeout(() => {
-            dispatch(getSitesSuccess(sitesData));
-        }, 2000);
-    };
+        getLocations()
+            .then((data) => {
+                dispatch(getSitesSuccess(data))
+            })
+            .catch((error) => 
+                dispatch(getSitesFailure(error))
+            );
+    }
 }

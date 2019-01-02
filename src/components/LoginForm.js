@@ -33,7 +33,7 @@ class LoginForm extends Component {
             await GoogleSignin.hasPlayServices();
             const userInfo = await GoogleSignin.signIn();
             this.setState({ userInfo, isSigninInProgress: false });
-            console.log(this.state.userInfo.user.id);
+            console.log(this.state.userInfo);
         } catch (error) {
             if (error.code === statusCodes.SIGN_IN_CANCELLED) {
                 // user cancelled the login flow

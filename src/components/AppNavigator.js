@@ -2,7 +2,7 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Routes from '../config/routes';
 
 const navOpts = {
-    initialRouteName: 'Login'
+    initialRouteName: 'Home'
     // navigationOptions: {
     //     headerStyle: {
     //         backgroundColor: colors.primary

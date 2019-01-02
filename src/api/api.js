@@ -5,6 +5,12 @@
 // Click en book -> http://bookings.globant.com/json/bookEvent?calid=globant.com_lc1s5clf2eble26eeige1g9vms@group.calendar.google.com&eventid=14r3cupt3fpgsprmigjc70pp2v_20181226T184500Z&_=1545403559857
 // Click en cancel book -> http://bookings.globant.com/json/cancelEvent?calid=globant.com_lc1s5clf2eble26eeige1g9vms@group.calendar.google.com&eventid=14r3cupt3fpgsprmigjc70pp2v_20181226T184500Z&_=1545403747805
 
+const baseUrl = 'http://bookings.globant.com';
+
+// const start = '2019-1-2';
+// const end = '2018-1-9';
+// const _ = Date.now(); //timestamp
+
 // Handle HTTP errors since fetch won't.
 const handleErrors = (response) => {
     if (!response.ok) {
@@ -14,23 +20,13 @@ const handleErrors = (response) => {
 }
 
 const fetchData = (url) => {
-    return fetch(url)
+    return fetch(baseUrl + url)
         .then(handleErrors)
         .then(response => response.json())
         .catch(error => console.error(error)) 
 }
 
-export const fetchCategories = () => {
-    const url = 'http://acamicaexample.herokuapp.com/categories'; 
-    return fetchData(url); 
-}
-
-export const fetchBooksByCategory = (id, page, limit) => {
-    const url = `http://acamicaexample.herokuapp.com/books?category_id=${id}&_page=${page}&_limit=${limit}`; 
-    return fetchData(url); 
-}
-
-export const fetchPlayers = () => {
-    const url = 'http://192.168.1.109:3000/team3'; 
+export const getLocations = () => {
+    const url = '/locationAction.do?method=readAll';
     return fetchData(url); 
 }
