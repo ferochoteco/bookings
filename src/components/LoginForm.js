@@ -22,7 +22,11 @@ class LoginForm extends Component {
     }
 
     componentDidMount() {
-        GoogleSignin.configure();
+        // GoogleSignin.configure();
+        GoogleSignin.configure({
+            scopes: ['https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile', 'https://www.googleapis.com/auth/calendar'], // what API you want to access on behalf of the user, default is email and profile
+            forceConsentPrompt: true // [Android] if you want to show the authorization prompt at each login.
+          });
     }
 
     signIn = async () => {
@@ -71,17 +75,17 @@ class LoginForm extends Component {
                             barStyle="light-content"
                             />
                         <GoogleSigninButton
-                            style={{ width: 48, height: 48 }}
-                            size={GoogleSigninButton.Size.Icon}
+                            style={styles.signIn}
+                            size={GoogleSigninButton.Size.Wide}
                             color={GoogleSigninButton.Color.Dark}
                             onPress={this.signIn}
                             disabled={this.state.isSigninInProgress} />
-                        <Button
+                        {/* <Button
                             onPress={this.signOut}
                             title="Sign Out"
                             color="green"
                             accessibilityLabel="Learn more about this purple button"
-                            />
+                            /> */}
                         { error && <Text style={styles.errorText}>{ error.message }</Text>}
                     </View>
                 } 
@@ -103,6 +107,10 @@ const styles = StyleSheet.create({
     },
     errorText: {
         color: '#c0392b'
+    },
+    signIn: {
+        width: '100%', 
+        height: 48 
     }
 });
 

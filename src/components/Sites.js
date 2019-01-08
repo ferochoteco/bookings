@@ -30,7 +30,7 @@ class Sites extends Component {
                             renderItem={({item}) => 
                                 <TouchableHighlight
                                     style={styles.listItem}
-                                    underlayColor={'green'}
+                                    underlayColor={'#673AB7'}
                                     onPress={() => this.handleOnPress(item)}>
                                     <Text>{item.name}</Text>
                                 </TouchableHighlight>}

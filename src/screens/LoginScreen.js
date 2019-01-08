@@ -24,7 +24,7 @@ LoginScreen.navigationOptions = {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#2ecc71'
+        backgroundColor: '#673AB7'
     },
     logoContainer: {
         alignItems: 'center',
@@ -37,7 +37,9 @@ const styles = StyleSheet.create({
     },
     title: {
         color: '#FFF',
-        margin: 12,
+        fontWeight: 'bold',
+        fontSize: 17,
+        margin: 24,
         width: 260,
         textAlign: 'center',
         opacity: 0.9

@@ -28,6 +28,6 @@ export function getBookingsAction(calendarId){
         setTimeout(() => {
             console.log(calendarId);
             dispatch(getBookingsSuccess(bookingsData));
-        }, 2000);
+        }, 100);
     };
 }

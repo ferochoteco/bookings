@@ -1,21 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, StyleSheet } from 'react-native';
-import Sites from '../components/Sites';
+import { View, StyleSheet, Text } from 'react-native';
 import HeaderTitle from '../components/common/HeaderTitle';
 
-const HomeScreen = ({ navigation }) => (
+const ReservationsScreen = ({ navigation }) => (
     <View style={styles.container}>
-        <Sites navigation={ navigation } />
+        <Text>My reservations</Text>
     </View>
 );
 
-HomeScreen.propTypes = {
+ReservationsScreen.propTypes = {
     navigation: PropTypes.object.isRequired,
 };
 
-HomeScreen.navigationOptions = {
-    headerTitle: <HeaderTitle text="Sites" iconName="location-on" />
+ReservationsScreen.navigationOptions = {
+    headerTitle: <HeaderTitle text="My reservations" iconName="access-alarm" />
 };
 
 const styles = StyleSheet.create({
@@ -25,4 +24,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default HomeScreen;
+export default ReservationsScreen;

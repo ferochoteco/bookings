@@ -14,20 +14,13 @@ BookingsCalendarScreen.propTypes = {
 };
 
 BookingsCalendarScreen.navigationOptions = {
-    title: 'Bookings Available',
+    title: 'Availability',
 };
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#FFF'
-    },
-    title: {
-        color: '#FFF',
-        margin: 12,
-        width: 260,
-        textAlign: 'center',
-        opacity: 0.9
     }
 });
 
