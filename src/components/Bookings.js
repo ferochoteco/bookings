@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, StatusBar, Text, FlatList, SectionList, TouchableHighlight } from 'react-native';
 import Loading from './common/Loading';
+import { Icon } from 'react-native-elements';
 import { getFormattedDate } from '../utils/formatDate';
 // Redux
 import { connect } from 'react-redux';
 import { getBookingsAction } from '../actions/bookingsActions';
+import { ScrollView } from 'react-native-gesture-handler';
 
 class Bookings extends Component {
     
@@ -12,22 +14,38 @@ class Bookings extends Component {
         super();
         this.bookingsAvailable = this.bookingsAvailable.bind(this);
         this.renderItem = this.renderItem.bind(this);
+        this.renderSectionHeader = this.renderSectionHeader.bind(this);
     }
 
     renderItem({ item, index, section }) {
+        if (item.title === "Occupied" && item.mine === false) 
+            return null;
+        const iconName = item.mine ? 'calendar-times-o' : 'calendar-check-o';
+        const color = item.mine ? 'red' : '#27ae60';
         const startDate = getFormattedDate(item.startDateTime.value);
         const endDate = getFormattedDate(item.endDateTime.value);
         return (
-                item.title === "Available" &&
+                (item.title === "Available" || (item.title === "Occupied" && item.mine === true))  &&
                     <TouchableHighlight
                         style={styles.listItem}
                         underlayColor={'#673AB7'}
                         onPress={() => this.handleOnPress()}>
-                        <View>
-                            <Text>{ startDate.time } - { endDate.time }</Text>
+                        <View style={{flexDirection: 'row', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+                            <Text style={styles.time}>{ startDate.time } - { endDate.time }</Text>
+                            <Icon onPress={() => alert("Turno reservado")} containerStyle={{flex: 1, alignItems: 'flex-end'}} name={iconName} type="font-awesome" color={color} />
+                            <Icon onPress={() => alert("Info")} containerStyle={{flex: 1, paddingTop: 3, alignItems: 'flex-end'}} name="info" type="feather" color='#2980b9' />
                         </View>
                     </TouchableHighlight>
             )
+    }
+
+    renderSectionHeader({ section: { title } }) {
+        let date = new Date(title);
+        date = String(date).split(" ");
+        const day = date[0];
+        const month = date[1];
+        const number = date[2];
+        return <Text style={styles.sectionTitle}>{day} {number}, {month}</Text>
     }
 
     componentDidMount() {
@@ -66,28 +84,24 @@ class Bookings extends Component {
     }
 
     render() {
-        const { loading, bookings } = this.props;
+        const { loading, bookings, benefit } = this.props;
         const sectionData = this.groupByDate(bookings);
         return (
             <View style={styles.container}>
                 { loading ? <Loading isLoading={loading} /> :
                     this.bookingsAvailable(bookings) ?
                         sectionData && 
-                            <View>
+                            <ScrollView>
                                 <StatusBar barStyle="light-content" />
-                                {/* <FlatList 
-                                    data={bookings} 
-                                    keyExtractor={item => item.id} 
-                                    renderItem={ this.renderItem } /> */}
+                                <Text style={styles.title}>{benefit.name}</Text>
                                 <SectionList
+                                    contentContainerStyle={styles.listContainer}
                                     renderItem={ this.renderItem }
-                                    renderSectionHeader={({section: {title}}) => (
-                                        <Text style={{fontWeight: 'bold'}}>{title}</Text>
-                                    )}
+                                    renderSectionHeader={ this.renderSectionHeader }
                                     sections={sectionData}
                                     keyExtractor={(item, index) => item.id + index}
                                     />
-                            </View> 
+                            </ScrollView> 
                     :
                         <Text>No available benefits</Text>
                 } 
@@ -100,16 +114,27 @@ const styles = StyleSheet.create({
     container: {
         padding: 20
     },
-    errorText: {
-        color: '#c0392b'
-    },
     title: {
-        paddingBottom: 20,
-        backgroundColor: 'yellow'
+        marginBottom: 10,
+        paddingLeft: 10,
+        color: '#000',
+        fontWeight: 'bold',
+        fontSize: 20
     },
     listItem: {
-        flex: 1,
         padding: 10
+    },
+    sectionTitle: {
+        height: 20,
+        margin: 10,
+        backgroundColor: '#673AB7',
+        fontWeight: 'bold',
+        color: '#FFF',
+        textAlign: 'center',
+        borderRadius: 5
+    },
+    time: {
+        flex: 8,
     }
 });
 
